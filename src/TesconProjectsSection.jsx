@@ -1,56 +1,60 @@
-import React from 'react';
+import React from "react";
 
 const projects = [
   {
-    title: 'Coal Handling System',
-    image: '/coal.png',
+    title: "Coal Handling System",
+    image: "/coal.png",
     description:
-      'Tescon Groups excels in efficient execution of Coal Handling Systems, boasting a successful track record with numerous projects. Our expertise ensures seamless operations and optimal performance, making us a trusted partner in delivering excellence in coal handling solutions.',
+      "Efficient execution of Coal Handling Systems with a proven track record. We deliver reliable, optimized, and high-performance coal handling solutions.",
   },
   {
-    title: 'Ash Handling System',
-    image: '/ash.png',
+    title: "Ash Handling System",
+    image: "/ash.png",
     description:
-      'Tescon Groups excels in efficient execution of Ash Handling Systems and equipment, having successfully completed numerous projects. Our expertise ensures seamless operations, optimal performance, and client satisfaction in the realm of ash handling solutions.',
+      "Expertly designed Ash Handling Systems for seamless, efficient operations. Trusted by industries across sectors for reliable ash management.",
   },
   {
-    title: 'Bio-Mass Handling System',
-    image: '/biomass.png',
+    title: "Bio-Mass Handling System",
+    image: "/biomass.png",
     description:
-      'Tescon Groups excels in efficient execution of Bio-Mass Handling System projects. With a track record of successful installations, we leverage cutting-edge equipment and expertise to ensure seamless operations, contributing to the success of numerous projects.',
+      "High-performance Bio-Mass Handling solutions using advanced technology. Supporting sustainable operations through efficient systems.",
   },
   {
-    title: 'Storage And Loading System',
-    image: '/storage.png',
+    title: "Storage And Loading System",
+    image: "/storage.png",
     description:
-      'Tescon Groups excels in efficiently implementing Storage and Loading Systems, showcasing prowess through numerous successful projects. Our cutting-edge equipment ensures seamless operations, providing reliable solutions for diverse industries.',
+      "Powerful and scalable Storage & Loading Systems designed to meet industrial demands with precision and speed.",
   },
 ];
 
 const TesconProjectsSection = () => {
   return (
-    <section className="bg-[#f9f9f9] py-20 px-4 md:px-20">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 text-blue-600">
-          Tescon Projects
+    <section className="bg-gradient-to-br from-[#f0f8ff] to-[#e6f2ff] py-20 px-5 md:px-16">
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-12">
+          Our Projects
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl transition duration-300 transform hover:-translate-y-1"
+              className="bg-white rounded-2xl shadow-xl border border-blue-100 overflow-hidden hover:shadow-2xl transition-all duration-300"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-52 object-cover rounded-t-xl"
-              />
-              <div className="p-6 md:p-8">
-                <h3 className="text-2xl font-semibold text-black mb-4 relative inline-block after:block after:h-[3px] after:bg-blue-600 after:w-16 after:mt-1">
+              <div className="overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-56 object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div className="p-6 text-left">
+                <h3 className="text-2xl font-bold text-blue-800 mb-1 relative inline-block">
                   {project.title}
+                  <span className="block w-10 h-[3px] bg-blue-800 mt-1 rounded-full"></span>
                 </h3>
-                <p className="text-gray-700 leading-relaxed text-[15px]">
+
+                <p className="text-gray-600 text-[15.5px] leading-relaxed">
                   {project.description}
                 </p>
               </div>

@@ -5,26 +5,29 @@ const OverviewSection = () => {
     <section className="bg-white text-black py-20 px-4 md:px-24">
       <div className="max-w-6xl mx-auto">
         {/* Section Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600 tracking-wide">
-          Overview
-        </h2>
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-600 tracking-wide relative inline-block">
+            Overview
+            <span className="block w-16 h-1 bg-blue-600 mt-2 mx-auto rounded-full"></span>
+          </h2>
+        </div>
 
         {/* Styled Content */}
-        <div className="border-l-4 border-blue-600 pl-6 md:pl-10 text-justify text-base md:text-lg leading-relaxed space-y-6">
+        <div className="bg-gray-50 p-8 md:p-12 rounded-lg shadow-md text-justify text-base md:text-lg leading-relaxed space-y-6 border border-gray-200">
           <p>
-            With a beginning in 1994 as sole proprietorship, Mr. Rajesh Kumar started the operation with a team of 20 to 25 people in the process industry with job contract of Bulk Material Handling System. With the yielded success, soon a Pvt. Ltd. company was formed with satisfied customers willing to place repeat orders.
+            Tescon Project began in 1994 with Mr. Rajesh Kumar and a small team, focusing on Bulk Material Handling Systems. With growing success and client trust, it soon evolved into a Pvt. Ltd. company.
           </p>
           <p>
-            In a short span of 18 years, we have evaluated to start a limited company viz., Tescon Project. We have 100–145 installations to our credit. Nowadays, Tescon Project, an ISO-9001:2008 certified company with its head office in New Delhi, India, is a multi-disciplinary company with diversified interests in Power Energy & Process Industries.
+            Today, Tescon Project is an ISO-9001:2008 certified limited company based in New Delhi, with over 100 installations across India. We operate in Power, Energy, and Process Industries.
           </p>
           <p>
-            We are now executing Coal, Bagasse, Lignite-fired power plants with unit sizes ranging from 1 MW to 50 MW as well as a wide range of products & services including BOP, Bulk Material & Ash Handling Plants. Tescon Project is also a service provider for O&M of power plants in India.
+            Our expertise includes Coal, Bagasse, and Lignite-fired power plants (1–50 MW), BOP, Bulk Material, and Ash Handling systems. We also offer O&M services for power plants.
           </p>
           <p>
-            We have been rendering specialized engineering services covering all disciplines of Engineering — Civil, Structural, Architectural, Mechanical, Electrical, Electronics, Instrumentation, Controls & Environmental — for various power utilities and industrial projects in India.
+            Tescon provides specialized engineering across Civil, Mechanical, Electrical, Instrumentation, and Environmental sectors for major industrial and utility projects.
           </p>
           <p>
-            Since inception, Tescon Project has consistently thrived to promote its resources for better products & services by adapting new technology. Tescon Project has built a highly talented pool of professionals who have put persistent efforts to apply the latest technology, manufacturing capabilities, and project execution skills comparable with the finest in the industry.
+            Backed by a skilled team and modern tech, Tescon is committed to quality, innovation, and efficient project execution.
           </p>
         </div>
       </div>
