@@ -6,7 +6,7 @@ const TalkToUs = () => {
       className="bg-cover bg-center bg-no-repeat text-center py-20 px-6 md:px-20 relative"
       style={{
         backgroundImage:
-          "url('https://4920851.fs1.hubspotusercontent-na1.net/hub/4920851/hubfs/US%20Blog%20Feature%20Images/Kardex_img_customer_Wipotec_10_1200x628.jpeg?quality=low&width=893&height=500&name=Kardex_img_customer_Wipotec_10_1200x628.jpeg')",
+          "url('/talkToUs.jpg')",
       }}
     >
       <div className="bg-black/60  p-10 rounded-xl max-w-3xl mx-auto">

@@ -42,7 +42,7 @@ const TesconProjectsSection = () => {
         </div>
 
         {/* Project Cards */}
-        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div
               key={index}

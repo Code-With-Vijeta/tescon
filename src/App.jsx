@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import WhatsAppButton from "./Whtsapp";
 import AboutPage from "./AboutUsPage"; 
 import Services from "./ServicesPage";
+import Contact from "./ContactPage";
 
 function App() {
   return (
@@ -44,6 +45,15 @@ function App() {
           <>
           <Navbar />
           <Services />
+          <Footer />
+          <WhatsAppButton />
+          </>} />
+          <Route path="/contact" element={
+          <>
+          <Navbar />
+          <Contact />
+          {/* <AddressSection /> */}
+          <TalkToUs />
           <Footer />
           <WhatsAppButton />
           </>} />
