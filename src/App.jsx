@@ -10,6 +10,7 @@ import AddressSection from "./AddressSection";
 import Footer from "./Footer";
 import WhatsAppButton from "./Whtsapp";
 import AboutPage from "./AboutUsPage"; 
+import Services from "./ServicesPage";
 
 function App() {
   return (
@@ -36,6 +37,13 @@ function App() {
           <>
           <Navbar />
           <AboutPage />
+          <Footer />
+          <WhatsAppButton />
+          </>} />
+          <Route path="/services" element={
+          <>
+          <Navbar />
+          <Services />
           <Footer />
           <WhatsAppButton />
           </>} />

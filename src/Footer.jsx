@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaGooglePlay,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -23,11 +24,11 @@ const Footer = () => {
         <div>
           <h4 className="text-xl font-semibold mb-4 text-yellow-500">Quick Links</h4>
           <ul className="space-y-3 text-gray-300">
-            <li><a href="#" className="hover:text-white transition">Home</a></li>
-            <li><a href="#" className="hover:text-white transition">About</a></li>
-            <li><a href="#" className="hover:text-white transition">Energy & Infrastructure</a></li>
-            <li><a href="#" className="hover:text-white transition">Services</a></li>
-            <li><a href="#" className="hover:text-white transition">Contact</a></li>
+            <li><a href="/" className="hover:text-white transition">Home</a></li>
+            <li><a href="/about" className="hover:text-white transition">About us</a></li>
+            <li><a href="/services" className="hover:text-white transition">Services</a></li>
+            <li><a href="/products" className="hover:text-white transition">Products</a></li>
+            <li><a href="/contact" className="hover:text-white transition">Contact us</a></li>
           </ul>
         </div>
 
@@ -38,8 +39,8 @@ const Footer = () => {
             C-76, Block C/1, 3rd Floor,<br />
             Mahavir Vihar, Sector-1,<br />
             Dwarka, New Delhi - 110075<br /><br />
-            <strong className="text-blue-300">Email:</strong> info@essaedig.com<br />
-            <strong className="text-blue-300">Phone:</strong> +91-8028544100
+            <strong className="text-blue-300">Email:</strong> Info@tescongroups.com<br />
+            <strong className="text-blue-300">Phone:</strong> +91-8882253405
           </p>
         </div>
 

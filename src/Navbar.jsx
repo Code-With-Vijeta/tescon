@@ -29,7 +29,7 @@ const Navbar = () => {
             <MdLocationOn className="text-yellow-500 text-3xl" />
             <div>
               <p className="text-gray-500">Email Address</p>
-              <p className="font-semibold">info@essaedig.com</p>
+              <p className="font-semibold">Info@tescongroups.com</p>
             </div>
           </div>
           <div className="w-px h-10 bg-gray-300" />
@@ -37,7 +37,7 @@ const Navbar = () => {
             <MdCall className="text-yellow-500 text-3xl" />
             <div>
               <p className="text-gray-500">Call Us</p>
-              <p className="font-semibold">+91-8028544100</p>
+              <p className="font-semibold">+91-8882253405</p>
             </div>
           </div>
           <button className="bg-yellow-500 hover:bg-[#042b4e] text-white font-semibold px-5 py-2 rounded-sm">
@@ -69,15 +69,24 @@ const Navbar = () => {
           >
             About Us
           </Link>
-          <a href="#" className="hover:text-[#042b4e] transition">
-            Services
-          </a>
-          <a href="#" className="hover:text-[#042b4e] transition">
-            Products
-          </a>
-          <a href="#" className="hover:text-[#042b4e] transition">
-            Contact Us
-          </a>
+          <Link
+              to="/services"
+              className="hover:text-[#042b4e] transition"
+            >
+             Services
+            </Link>
+            <Link
+              to="/product"
+              className="hover:text-[#042b4e] transition"
+            >
+              Product
+            </Link>
+            <Link
+              to="/contact"
+              className="hover:text-[#042b4e] transition"
+            >
+              Contact Us
+            </Link>
         </div>
 
         {menuOpen && (
@@ -94,15 +103,24 @@ const Navbar = () => {
             >
               About Us
             </Link>
-            <a href="#" className="hover:text-[#042b4e] transition">
-              Services
-            </a>
-            <a href="#" className="hover:text-[#042b4e] transition">
-              Products
-            </a>
-            <a href="#" className="hover:text-[#042b4e] transition">
+            <Link
+              to="/services"
+              className="hover:text-[#042b4e] transition"
+            >
+             Services
+            </Link>
+            <Link
+              to="/product"
+              className="hover:text-[#042b4e] transition"
+            >
+              Product
+            </Link>
+            <Link
+              to="/contact"
+              className="hover:text-[#042b4e] transition"
+            >
               Contact Us
-            </a>
+            </Link>
           </div>
         )}
       </div>
