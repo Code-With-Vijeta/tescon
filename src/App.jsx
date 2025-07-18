@@ -1,8 +1,9 @@
 import HeroSection from './HeroSection';
 import OverviewSection from './OverviewSection';
 import TesconProjectsSection from './TesconProjectsSection';
+import IntroSection from './IntroSection';
 import AboutUsSection from './AboutUsSection';
-import OurClients from './OurClients';
+// import OurClients from './OurClients';
 import TalkToUs from './TalkToUs';
 import AddressSection from './AddressSection';
 import Footer from './Footer';
@@ -13,11 +14,14 @@ function App() {
     <>
       <HeroSection />
       <OverviewSection />
+            <IntroSection />
       <TesconProjectsSection />
+
       <AboutUsSection />
-      <OurClients />
+      {/* <OurClients /> */}
+            <AddressSection />
       <TalkToUs />
-      <AddressSection />
+
       <Footer />
       <WhatsAppButton />
 

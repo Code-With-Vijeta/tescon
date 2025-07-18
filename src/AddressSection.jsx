@@ -33,7 +33,7 @@ const AddressSection = () => {
             <a href="#" className="bg-[#34a853] text-white p-3 rounded-full hover:bg-green-600 transition-all shadow-lg hover:scale-105"><FaGooglePlay /></a>
           </div>
 
-          <button className="mt-2 px-6 py-3 bg-indigo-600 text-white text-lg rounded-full font-semibold shadow-md hover:bg-indigo-700 transition-all">
+          <button className="mt-2 px-6 py-3 bg-blue-600 text-white text-lg rounded-full font-semibold shadow-md hover:bg-blue-700 transition-all">
             Get in Touch
           </button>
         </div>

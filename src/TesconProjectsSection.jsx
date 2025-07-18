@@ -13,12 +13,12 @@ const projects = [
     description:
       "Expertly designed Ash Handling Systems for seamless, efficient operations. Trusted by industries across sectors for reliable ash management.",
   },
-  {
-    title: "Bio-Mass Handling System",
-    image: "/biomass.png",
-    description:
-      "High-performance Bio-Mass Handling solutions using advanced technology. Supporting sustainable operations through efficient systems.",
-  },
+  // {
+  //   title: "Bio-Mass Handling System",
+  //   image: "/biomass.png",
+  //   description:
+  //     "High-performance Bio-Mass Handling solutions using advanced technology. Supporting sustainable operations through efficient systems.",
+  // },
   {
     title: "Storage And Loading System",
     image: "/storage.png",
@@ -29,31 +29,34 @@ const projects = [
 
 const TesconProjectsSection = () => {
   return (
-    <section className="bg-gradient-to-br from-[#f0f8ff] to-[#e6f2ff] py-20 px-5 md:px-16">
-      <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-12">
-          Our Projects
-        </h2>
+    <section className="bg-[#f7f9fc] py-20 px-4 md:px-16">
+      <div className="max-w-7xl mx-auto">
+        {/* Section Title */}
+        <div className="text-center mb-14">
+          <p className="text-blue-700 uppercase tracking-wider font-semibold mb-2">
+            Work we have done
+          </p>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-500 mb-4">
+           Our Projects
+          </h2>
+        </div>
 
-        <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+        {/* Project Cards */}
+        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-xl border border-blue-100 overflow-hidden hover:shadow-2xl transition-all duration-300"
+              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-56 object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-              <div className="p-6 text-left">
-                <h3 className="text-2xl font-bold text-blue-800 mb-1 relative inline-block">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-6">
+                <h3  className="text-xl font-bold  hover:text-yellow-500 text-gray-800 mb-3 border-b pb-2 border-dashed border-gray-300">
                   {project.title}
-                  <span className="block w-10 h-[3px] bg-blue-800 mt-1 rounded-full"></span>
                 </h3>
-
                 <p className="text-gray-600 text-[15.5px] leading-relaxed">
                   {project.description}
                 </p>

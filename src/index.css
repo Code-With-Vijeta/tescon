@@ -1,2 +1,10 @@
 @import "tailwindcss";
 
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  45%, 55% { opacity: 1; }
+}
+.animate-fade {
+  animation: fade 10s infinite;
+  transition: opacity 1s ease-in-out;
+}
