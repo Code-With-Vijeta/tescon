@@ -13,12 +13,12 @@ const projects = [
     description:
       "Expertly designed Ash Handling Systems for seamless, efficient operations. Trusted by industries across sectors for reliable ash management.",
   },
-  // {
-  //   title: "Bio-Mass Handling System",
-  //   image: "/biomass.png",
-  //   description:
-  //     "High-performance Bio-Mass Handling solutions using advanced technology. Supporting sustainable operations through efficient systems.",
-  // },
+  {
+    title: "Equipment",
+    image: "/equipment.png",
+    description:
+      "Advanced equipment designed for bulk material handling, ensuring reliability, precision, and long-term operational efficiency.",
+  },
   {
     title: "Storage And Loading System",
     image: "/storage.png",
@@ -42,7 +42,7 @@ const TesconProjectsSection = () => {
         </div>
 
         {/* Project Cards */}
-        <div className="grid gap-10 grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
+        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
           {projects.map((project, index) => (
             <div
               key={index}

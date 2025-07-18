@@ -40,9 +40,7 @@ const Navbar = () => {
               <p className="font-semibold">+91-8882253405</p>
             </div>
           </div>
-          <button className="bg-yellow-500 hover:bg-[#042b4e] text-white font-semibold px-5 py-2 rounded-sm">
-            About us
-          </button>
+          <a href="/about" className="bg-yellow-500 hover:bg-[#042b4e] text-white font-semibold px-5 py-2 rounded-sm">About us</a>
         </div>
 
         {/* Hamburger Icon */}

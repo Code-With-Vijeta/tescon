@@ -8,34 +8,35 @@ const industries = [
     title:
       "Thermal Power Plants (Coal, Bagasse, and Lignite-based, up to 50 MW)",
     description:
-      "Specialized ash and coal handling systems designed to enhance reliability and operational efficiency in small to mid-sized thermal power plants.",
+      "We provide ash and coal handling systems optimized for small to mid-capacity thermal power plants, ensuring high efficiency and reduced maintenance.",
     image: "./services/power.png",
   },
   {
     title: "Cement Manufacturing Plants",
     description:
-      "Advanced bulk material systems tailored for the seamless handling of limestone, clinker, and additives critical to continuous cement production.",
+      "Customized solutions for handling limestone, clinker, and additives, enhancing continuous and dust-free cement production processes.",
     image: "./services/cement.png",
   },
   {
     title: "Process and Chemical Industries",
     description:
-      "Engineered solutions for efficient material transfer, supporting complex chemical processes and ensuring safety and precision across production lines.",
+      "Material handling systems engineered to meet the safety, accuracy, and flow control needs of modern chemical and process industries.",
     image: "./services/chemical.png",
   },
   {
     title: "Bulk Material Storage & Handling Facilities",
     description:
-      "Comprehensive systems for managing and storing ores, minerals, and other bulk materials in mining, warehousing, and transport hubs.",
+      "Solutions for systematic storage and movement of bulk materials like ores and minerals in ports, warehouses, and mining sites.",
     image: "./services/storage.png",
   },
   {
     title: "Energy and Utility Sectors",
     description:
-      "Robust handling solutions for biomass, coal, and other fuels, supporting efficient operations across energy production and utility infrastructure.",
+      "Efficient biomass and coal handling systems supporting consistent energy generation across power and utility infrastructure.",
     image: "./services/energy.png",
   },
 ];
+
 
 
 const clientLogos = [
