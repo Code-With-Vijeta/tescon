@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-100 pt-16 pb-8 px-6 md:px-20">
+    <footer className="bg-[#042b4e] text-gray-100 pt-16 pb-8 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 sm:grid-cols-2 gap-12">
         
         {/* Logo / Company Info */}
@@ -38,8 +38,8 @@ const Footer = () => {
             C-76, Block C/1, 3rd Floor,<br />
             Mahavir Vihar, Sector-1,<br />
             Dwarka, New Delhi - 110075<br /><br />
-            <strong className="text-blue-300">Email:</strong> info@tescongroups.com<br />
-            <strong className="text-blue-300">Phone:</strong> +91-9876543210
+            <strong className="text-blue-300">Email:</strong> info@essaedig.com<br />
+            <strong className="text-blue-300">Phone:</strong> +91-8028544100
           </p>
         </div>
 

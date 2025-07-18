@@ -19,7 +19,7 @@ const TalkToUs = () => {
         </p>
         <a
           href="#contact" // change this to your actual contact link
-          className="inline-block bg-white text-blue-700 px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-100 transition"
+          className="inline-block bg-white text-[#042b4e] px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-100 transition"
         >
           Contact Us
         </a>

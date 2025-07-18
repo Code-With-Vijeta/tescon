@@ -33,7 +33,7 @@ const TesconProjectsSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-14">
-          <p className="text-blue-700 uppercase tracking-wider font-semibold mb-2">
+          <p className="text-[#042b4e] uppercase tracking-wider font-semibold mb-2">
             Work we have done
           </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-500 mb-4">
