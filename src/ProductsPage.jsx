@@ -34,7 +34,7 @@ const productGroups = [
           "A bucket elevator vertically lifts bulk materials using buckets attached to a continuous belt or chain.",
         image: "/equipments/bucket.jpg",
       },
-        {
+      {
         title: "Portable Loader",
         description:
           "Portable loaders are mobile conveyors mounted on wheeled or skid bases for flexible material loading and transfer on site.",
@@ -44,94 +44,100 @@ const productGroups = [
   },
 
   {
-  category: "Components",
-  items: [
-    {
-      subheading: "Idlers",
-      parts: [
-        {
-          title: "Impact Idler",
-          description: "Positioned at loading zones to absorb shock and impact forces from falling bulk material.",
-          image: "/components/impact.png",
-        },
-        {
-          title: "Carrying Idler",
-          description: "Form a trough shape for stable, controlled material transport. Typical trough angles: 20°, 35°, or 45°. Diameter",
-          image: "/components/carrying.png",
-        },
-        {
-          title: "Return Idler",
-          description: "Support the empty belt and prevent sagging. Commonly flat or slightly trough-shaped.",
-          image: "/components/return.png",
-        },
-        {
-          title: "Guide Idler",
-          description: "Located along return run edges to maintain belt alignment and prevent tracking issues.",
-          image: "/components/guide.png",
-        },
-      ],
-    },
-    {
-      subheading: "Pulleys",
-      parts: [
-        {
-          title: "V-Type Pulley",
-          description: "Designed for V-belt drives, improves power transfer efficiency with grooved surfaces.",
-          image: "/components/v.png",
-        },
-        {
-          title: "Drive Pulley",
-          description: "Transmits power from the motor to move the belt; often equipped with lagging to increase grip.",
-          image: "/components/drive.png",
-        },
-        {
-          title: "Tail Pulley",
-          description: "Located at the conveyor end, guides the belt back. Usually unlagged but can be lagged in some designs.",
-          image: "/components/tail.png",
-        },
-        {
-          title: "Lagged Pulley",
-          description: "Features a friction-enhancing lagging surface (rubber or ceramic) to prevent belt slip, especially in high torque applications.",
-          image: "/components/lagged.png",
-        },
-      ],
-    },
-  ],
-},
-
-  
-  {
-    category: "Feeders",
+    category: "Components",
     items: [
       {
-        title: "Screw Feeder",
-        description:
-          "Rotating screw inside a trough or pipe moves powders and granular materials for precise feeding.",
-        image: "/feeder/screw.png",
+        subheading: "Idlers",
+        parts: [
+          {
+            title: "Impact Idler",
+            description:
+              "Positioned at loading zones to absorb shock and impact forces from falling bulk material.",
+            image: "/components/impact.png",
+          },
+          {
+            title: "Carrying Idler",
+            description:
+              "Form a trough shape for stable, controlled material transport. Typical trough angles: 20°, 35°, or 45°. Diameter",
+            image: "/components/carrying.png",
+          },
+          {
+            title: "Return Idler",
+            description:
+              "Support the empty belt and prevent sagging. Commonly flat or slightly trough-shaped.",
+            image: "/components/return.png",
+          },
+          {
+            title: "Guide Idler",
+            description:
+              "Located along return run edges to maintain belt alignment and prevent tracking issues.",
+            image: "/components/guide.png",
+          },
+        ],
       },
       {
-        title: "Vibro Feeder",
-        description:
-          "Utilizes controlled vibrations to move materials gently, ideal for fragile or free-flowing materials.",
-        image: "/feeder/vibro.png",
+        subheading: "Pulleys",
+        parts: [
+          {
+            title: "V-Type Pulley",
+            description:
+              "Designed for V-belt drives, improves power transfer efficiency with grooved surfaces.",
+            image: "/components/v.png",
+          },
+          {
+            title: "Drive Pulley",
+            description:
+              "Transmits power from the motor to move the belt; often equipped with lagging to increase grip.",
+            image: "/components/drive.png",
+          },
+          {
+            title: "Tail Pulley",
+            description:
+              "Located at the conveyor end, guides the belt back. Usually unlagged but can be lagged in some designs.",
+            image: "/components/tail.png",
+          },
+          {
+            title: "Lagged Pulley",
+            description:
+              "Features a friction-enhancing lagging surface (rubber or ceramic) to prevent belt slip, especially in high torque applications.",
+            image: "/components/lagged.png",
+          },
+        ],
       },
       {
-        title: "Apron Feeder",
-        description:
-          "Heavy-duty feeders with overlapping steel plates for coarse or large lump material. Suitable for feeding crushers or conveyors under harsh conditions.",
-        image: "/feeder/apron.png",
-      },
-      {
-        title: "Drag Chain Feeder",
-        description:
-          "Chain flights drag materials in a trough for reliable feeding of heavy, abrasive, or sticky bulk materials. Fully enclosed for dust control.",
-        image: "/feeder/drag.jpg",
-      },
-      {
-        title: "Belt Feeder",
-        description:
-          "Uses a continuous belt to deliver a steady, controllable feed of bulk materials. Ideal for powders, granules, and lumps.",
-        image: "/feeder/belt.png",
+        subheading: "Feeders",
+        parts: [
+          {
+            title: "Screw Feeder",
+            description:
+              "Rotating screw inside a trough or pipe moves powders and granular materials for precise feeding.",
+            image: "/feeder/screw.png",
+          },
+          {
+            title: "Vibro Feeder",
+            description:
+              "Utilizes controlled vibrations to move materials gently, ideal for fragile or free-flowing materials.",
+            image: "/feeder/vibro.png",
+          },
+          {
+            title: "Apron Feeder",
+            description:
+              "Heavy-duty feeders with overlapping steel plates for coarse or large lump material. Suitable for feeding crushers or conveyors under harsh conditions.",
+            image: "/feeder/apron.png",
+          },
+          {
+            title: "Drag Chain Feeder",
+            description:
+              "Chain flights drag materials in a trough for reliable feeding of heavy, abrasive, or sticky bulk materials. Fully enclosed for dust control.",
+            image: "/feeder/drag.jpg",
+          },
+          {
+            title: "Belt Feeder",
+            description:
+              "Uses a continuous belt to deliver a steady, controllable feed of bulk materials. Ideal for powders, granules, and lumps.",
+            image: "/feeder/belt.png",
+          },
+        ],
       },
     ],
   },
