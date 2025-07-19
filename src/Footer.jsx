@@ -36,11 +36,12 @@ const Footer = () => {
         <div>
           <h4 className="text-xl font-semibold mb-4 text-yellow-500">Contact</h4>
           <p className="text-gray-300 text-sm">
-            C-76, Block C/1, 3rd Floor,<br />
+            C-1,Kh No. 76/12, 3rd Floor,<br />
             Mahavir Vihar, Sector-1,<br />
-            Dwarka, New Delhi - 110075<br /><br />
-            <strong className="text-blue-300">Email:</strong> Info@tescongroups.com<br />
-            <strong className="text-blue-300">Phone:</strong> +91-8882253405
+            Dwarka, New Delhi - 110045<br /><br />
+            <strong className="text-blue-300">Email:</strong> Tesconengineers@gmail.com<br /> tesconengineers07@gmail.com <br /> <br />
+            <strong className="text-blue-300">Phone:</strong> +91-8882253405<br /> +91-9643856547<br /> <br />
+            <strong className="text-blue-300">Web:</strong> www.tescongroups.com
           </p>
         </div>
 
@@ -61,7 +62,7 @@ const Footer = () => {
 
       {/* Bottom Note */}
       <div className="text-center text-gray-400 text-sm">
-        ©2022 <span className="text-white font-medium">Tescon Groups</span>. All rights reserved.
+        ©2025 <span className="text-white font-medium">Tescon Engineers</span>. All rights reserved.
       </div>
     </footer>
   );

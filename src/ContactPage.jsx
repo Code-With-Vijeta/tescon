@@ -38,30 +38,37 @@ const Contact = () => {
               <div className="flex gap-4 items-start">
                 <FaMapMarkerAlt className="text-[#042b4e] dark:text-yellow-300 text-xl mt-1" />
                 <p>
-                  <strong>Address:</strong><br />
-                  C-76, Block C/1, 3rd Floor,<br />
-                  Mahavir Vihar, Sector-1, Dwarka,<br />
-                  New Delhi - 110075
+                  <strong>Address:</strong>
+                  <br />
+                  C-1,Kh No. 76/12, 3rd Floor,
+                  <br />
+                  Mahavir Vihar, Sector-1,
+                  <br />
+                  Dwarka, New Delhi - 110045
                 </p>
               </div>
 
               <div className="flex gap-4 items-start">
                 <FaEnvelope className="text-[#042b4e] dark:text-yellow-300 text-xl mt-1" />
                 <p>
-                  <strong>Email:</strong><br />
-                  Info@tescongroups.com<br />
-                  Tesongroups@gmail.com <br />
+                  <strong>Email:</strong>
+                  <br />
                   Tesconengineers@gmail.com
-
+                  <br />
+                  Hr@tesconengineers.in
+                  <br />
+                  Info@tescongroups.com
                 </p>
               </div>
 
               <div className="flex gap-4 items-start">
                 <FaPhoneAlt className="text-[#042b4e] dark:text-yellow-300 text-xl mt-1" />
                 <p>
-                  <strong>Phone:</strong><br />
-                  +91 8882253405<br />
-                  +91 9911879595
+                  <strong>Phone:</strong>
+                  <br />
+                  +91 8882253405
+                  <br />
+                  +91 9643856547
                 </p>
               </div>
             </div>
@@ -72,16 +79,28 @@ const Contact = () => {
                 Connect With Us
               </h4>
               <div className="flex gap-4">
-                <a href="#" className="bg-[#3b5998] p-3 rounded-full text-white hover:bg-blue-700 transition hover:scale-110 shadow-lg">
+                <a
+                  href="#"
+                  className="bg-[#3b5998] p-3 rounded-full text-white hover:bg-blue-700 transition hover:scale-110 shadow-lg"
+                >
                   <FaFacebookF />
                 </a>
-                <a href="#" className="bg-[#1da1f2] p-3 rounded-full text-white hover:bg-sky-500 transition hover:scale-110 shadow-lg">
+                <a
+                  href="#"
+                  className="bg-[#1da1f2] p-3 rounded-full text-white hover:bg-sky-500 transition hover:scale-110 shadow-lg"
+                >
                   <FaTwitter />
                 </a>
-                <a href="#" className="bg-[#0077b5] p-3 rounded-full text-white hover:bg-blue-900 transition hover:scale-110 shadow-lg">
+                <a
+                  href="#"
+                  className="bg-[#0077b5] p-3 rounded-full text-white hover:bg-blue-900 transition hover:scale-110 shadow-lg"
+                >
                   <FaLinkedinIn />
                 </a>
-                <a href="#" className="bg-[#34a853] p-3 rounded-full text-white hover:bg-green-600 transition hover:scale-110 shadow-lg">
+                <a
+                  href="#"
+                  className="bg-[#34a853] p-3 rounded-full text-white hover:bg-green-600 transition hover:scale-110 shadow-lg"
+                >
                   <FaGooglePlay />
                 </a>
               </div>

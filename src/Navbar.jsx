@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="bg-[#042b4e] text-sm text-white flex justify-between items-center px-4 md:px-6 py-1">
         <p>Welcome to Leader in Industrial Solution</p>
         <p>
-          <span className="text-yellow-500 font-medium">ISO 9001:2008</span>
+          <span className="text-yellow-500 font-medium">www.tescongroups.com</span>
         </p>
       </div>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
             <MdLocationOn className="text-yellow-500 text-3xl" />
             <div>
               <p className="text-gray-500">Email Address</p>
-              <p className="font-semibold">Info@tescongroups.com</p>
+              <p className="font-semibold">Tesconengineers@gmail.com</p>
             </div>
           </div>
           <div className="w-px h-10 bg-gray-300" />
