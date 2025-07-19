@@ -8,34 +8,35 @@ const industries = [
     title:
       "Thermal Power Plants (Coal, Bagasse, and Lignite-based, up to 50 MW)",
     description:
-      "We provide ash and coal handling systems optimized for small to mid-capacity thermal power plants, ensuring high efficiency and reduced maintenance.",
+      "We specialize in designing and delivering advanced ash and coal handling systems tailored for small to mid-capacity thermal power plants. Our solutions prioritize operational reliability, automation, and minimal maintenance, enabling uninterrupted energy production while supporting cleaner and more sustainable power generation methods.",
     image: "./services/power.png",
   },
   {
     title: "Cement Manufacturing Plants",
     description:
-      "Customized solutions for handling limestone, clinker, and additives, enhancing continuous and dust-free cement production processes.",
+      "Our end-to-end material handling systems are customized for the unique demands of cement manufacturing, including the precise movement and processing of limestone, clinker, and additives. By reducing dust emissions and enhancing process continuity, our solutions contribute to safer work environments, improved production efficiency, and compliance with environmental standards.",
     image: "./services/cement.png",
   },
   {
     title: "Process and Chemical Industries",
     description:
-      "Material handling systems engineered to meet the safety, accuracy, and flow control needs of modern chemical and process industries.",
+      "We engineer highly specialized material handling systems designed for the rigorous and regulated environments of chemical and process industries. These systems are built to ensure precise dosing, safe transport of sensitive materials, corrosion resistance, and complete integration with automated process workflows—delivering consistent performance and safety at every stage.",
     image: "./services/chemical.png",
   },
   {
     title: "Bulk Material Storage & Handling Facilities",
     description:
-      "Solutions for systematic storage and movement of bulk materials like ores and minerals in ports, warehouses, and mining sites.",
+      "From mining sites and port terminals to industrial warehouses, we provide comprehensive solutions for the efficient storage, movement, and distribution of bulk materials like ores, aggregates, coal, and minerals. Our systems are engineered to handle high volumes with reduced spillage, optimized space utilization, and minimal environmental impact.",
     image: "./services/storage.png",
   },
   {
     title: "Energy and Utility Sectors",
     description:
-      "Efficient biomass and coal handling systems supporting consistent energy generation across power and utility infrastructure.",
+      "We offer high-performance biomass and coal handling systems tailored to meet the evolving demands of energy and utility providers. Designed to maximize fuel efficiency and reliability, our solutions ensure uninterrupted energy flow while supporting clean energy transitions and infrastructure modernization initiatives.",
     image: "./services/energy.png",
   },
 ];
+
 
 
 

@@ -16,7 +16,7 @@ const Footer = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4 text-yellow-500">Tescon Engineers</h3>
           <p className="text-gray-400 leading-relaxed">
-            We empower industries with sustainable infrastructure and energy solutions built for tomorrow.
+            At the forefront of innovation, we empower industries by delivering cutting-edge, sustainable infrastructure and energy solutions that are intelligently designed to drive long-term efficiency.
           </p>
         </div>
 
@@ -39,8 +39,8 @@ const Footer = () => {
             C-1,Kh No. 76/12, 3rd Floor,<br />
             Mahavir Vihar, Sector-1,<br />
             Dwarka, New Delhi - 110045<br /><br />
-            <strong className="text-blue-300">Email:</strong> Tesconengineers@gmail.com<br /> tesconengineers07@gmail.com <br /> <br />
-            <strong className="text-blue-300">Phone:</strong> +91-8882253405<br /> +91-9643856547<br /> <br />
+            <strong className="text-blue-300">Email:</strong> Tesconengineers@gmail.com<br /><span className="ml-11">tesconengineers07@gmail.com</span> <br /> <br />
+            <strong className="text-blue-300">Phone:</strong> +91-8882253405<br /> <span className="ml-12.5">+91-9643856547</span><br /> <br />
             <strong className="text-blue-300">Web:</strong> www.tescongroups.com
           </p>
         </div>
