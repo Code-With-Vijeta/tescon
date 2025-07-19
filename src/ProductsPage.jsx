@@ -168,7 +168,7 @@ const Products = () => {
             {"subheading" in (group.items[0] || {}) ? (
               group.items.map((sub, subIndex) => (
                 <div key={subIndex} className="mb-10">
-                  <h4 className="text-xl font-bold mb-4 text-yellow-500">
+                  <h4 className="text-xl font-bold mb-4 text-[#042b4e]">
                     {sub.subheading}
                   </h4>
                   <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
