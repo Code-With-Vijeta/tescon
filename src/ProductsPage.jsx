@@ -161,14 +161,14 @@ const Products = () => {
       <div className="py-20 px-6 md:px-20 bg-white text-gray-800 dark:bg-gray-900 dark:text-white">
         {productGroups.map((group, index) => (
           <div key={index} className="mb-16">
-            <h3 className="text-2xl font-semibold text-[#042b4e] mb-6">
+            <h3 className="text-3xl font-semibold text-[#042b4e] mb-6">
               {group.category}
             </h3>
 
             {"subheading" in (group.items[0] || {}) ? (
               group.items.map((sub, subIndex) => (
                 <div key={subIndex} className="mb-10">
-                  <h4 className="text-xl font-bold mb-4 text-[#042b4e]">
+                  <h4 className="text-2xl font-bold mb-4 text-[#042b4e]">
                     {sub.subheading}
                   </h4>
                   <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
