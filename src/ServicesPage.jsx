@@ -81,7 +81,7 @@ const Services = () => {
 
         <div className="relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-yellow-500">
-            Our Services
+            Our <span className="text-white">Services</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg">
             With our extensive experience and deep technical knowledge, we serve

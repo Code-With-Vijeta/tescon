@@ -9,9 +9,10 @@ import TalkToUs from "./TalkToUs";
 import AddressSection from "./AddressSection";
 import Footer from "./Footer";
 import WhatsAppButton from "./Whtsapp";
-import AboutPage from "./AboutUsPage"; 
+import AboutPage from "./AboutUsPage";
 import Services from "./ServicesPage";
 import Contact from "./ContactPage";
+import Products from "./ProductsPage";
 
 function App() {
   return (
@@ -34,29 +35,51 @@ function App() {
             </>
           }
         />
-        <Route path="/about" element={
-          <>
-          <Navbar />
-          <AboutPage />
-          <Footer />
-          <WhatsAppButton />
-          </>} />
-          <Route path="/services" element={
-          <>
-          <Navbar />
-          <Services />
-          <Footer />
-          <WhatsAppButton />
-          </>} />
-          <Route path="/contact" element={
-          <>
-          <Navbar />
-          <Contact />
-          {/* <AddressSection /> */}
-          <TalkToUs />
-          <Footer />
-          <WhatsAppButton />
-          </>} />
+        <Route
+          path="/about"
+          element={
+            <>
+              <Navbar />
+              <AboutPage />
+              <Footer />
+              <WhatsAppButton />
+            </>
+          }
+        />
+        <Route
+          path="/services"
+          element={
+            <>
+              <Navbar />
+              <Services />
+              <Footer />
+              <WhatsAppButton />
+            </>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Navbar />
+              <Contact />
+              <TalkToUs />
+              <Footer />
+              <WhatsAppButton />
+            </>
+          }
+        />
+        <Route
+          path="/product"
+          element={
+            <>
+              <Navbar />
+              <Products />
+              <Footer />
+              <WhatsAppButton />
+            </>
+          }
+        />
       </Routes>
     </Router>
   );

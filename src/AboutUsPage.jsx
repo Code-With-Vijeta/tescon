@@ -85,7 +85,7 @@ const AboutUs = () => {
 
         <div className="relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-yellow-500">
-            About Tescon Engineers
+            About <span className="text-white"> Tescon Engineers</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg">
             We specialize in Ash & Coal Handling and Storage Systems, offering
@@ -147,19 +147,22 @@ const AboutUs = () => {
             <span className="font-semibold text-yellow-300">
               Tescon Engineers
             </span>
-            , our vision is to become a{" "}
+            , our vision is to be a trusted leader in bulk material{" "}
             <span className="italic text-white underline underline-offset-4">
-              leading name in India and globally
+              handling solutions, delivering innovative, reliable, and efficient systems that drive industrial progress.
             </span>{" "}
-            for precision-engineered components and systems for{" "}
+            As a subsidiary of Tescon Groups{" "}
             <span className="font-medium text-white">
-              bulk material handling
+             , we build on over 20 years of expertise to serve power,cement, sugar, and paper industries with precision-engineered equipment.We strive to exceed customer expectations through
             </span>
-            . We aim to drive innovation in{" "}
-            <span className="text-yellow-200">mechanical design</span>,{" "}
-            <span className="text-yellow-200">operational efficiency</span>, and{" "}
-            <span className="text-yellow-200">system integration</span> across
-            power and process industries.
+            {" "}
+            <span className="text-yellow-200">quality manufacturing</span>,{" "}
+            <span className="text-yellow-200">sustainable practices</span>,and{" "}
+            <span className="text-yellow-200">dedicated support.</span> {" "}
+            <span className="font-medium text-white">
+             Our focus is on continuous improvement, technological advancement, and strong partnerships. With integrity, excellence, and innovation at our core, we aim to be a strategic partner in our clients’ success and a catalyst for industry growth."
+            </span>
+            {" "}
           </p>
         </div>
       </div>
