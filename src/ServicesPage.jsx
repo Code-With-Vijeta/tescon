@@ -9,31 +9,31 @@ const industries = [
       "Thermal Power Plants (Coal, Bagasse, and Lignite-based, up to 50 MW)",
     description:
       "We specialize in designing and delivering advanced ash and coal handling systems tailored for small to mid-capacity thermal power plants. Our solutions prioritize operational reliability, automation, and minimal maintenance, enabling uninterrupted energy production while supporting cleaner and more sustainable power generation methods.",
-    image: "./services/power.png",
+    image: "./services/power.webp",
   },
   {
     title: "Cement Manufacturing Plants",
     description:
       "Our end-to-end material handling systems are customized for the unique demands of cement manufacturing, including the precise movement and processing of limestone, clinker, and additives. By reducing dust emissions and enhancing process continuity, our solutions contribute to safer work environments, improved production efficiency, and compliance with environmental standards.",
-    image: "./services/cement.png",
+    image: "./services/cement.webp",
   },
   {
     title: "Process and Chemical Industries",
     description:
       "We engineer highly specialized material handling systems designed for the rigorous and regulated environments of chemical and process industries. These systems are built to ensure precise dosing, safe transport of sensitive materials, corrosion resistance, and complete integration with automated process workflows—delivering consistent performance and safety at every stage.",
-    image: "./services/chemical.png",
+    image: "./services/chemical.webp",
   },
   {
     title: "Bulk Material Storage & Handling Facilities",
     description:
       "From mining sites and port terminals to industrial warehouses, we provide comprehensive solutions for the efficient storage, movement, and distribution of bulk materials like ores, aggregates, coal, and minerals. Our systems are engineered to handle high volumes with reduced spillage, optimized space utilization, and minimal environmental impact.",
-    image: "./services/storage.png",
+    image: "./services/storage.webp",
   },
   {
     title: "Energy and Utility Sectors",
     description:
       "We offer high-performance biomass and coal handling systems tailored to meet the evolving demands of energy and utility providers. Designed to maximize fuel efficiency and reliability, our solutions ensure uninterrupted energy flow while supporting clean energy transitions and infrastructure modernization initiatives.",
-    image: "./services/energy.png",
+    image: "./services/energy.webp",
   },
 ];
 
@@ -41,16 +41,16 @@ const industries = [
 
 
 const clientLogos = [
-  { name: "shakumbri", src: "./clients/shakumbri.png" },
-  { name: "shantha", src: "./clients/shantha.png" },
-  { name: "shreeji", src: "./clients/shreeji.png" },
-  { name: "lakshmi", src: "./clients/lakshmi.png" },
-  { name: "shripur", src: "./clients/shripur.png" },
-  { name: "sukhbir", src: "./clients/sukhbir.png" },
-  { name: "tinplate", src: "./clients/tinplate.png" },
-  { name: "transtech", src: "./clients/transtech.png" },
-  { name: "universal", src: "./clients/universal.png" },
-  { name: "mineral", src: "./clients/mineral.png" },
+  { name: "shakumbri", src: "./clients/shakumbri.webp" },
+  { name: "shantha", src: "./clients/shantha.webp" },
+  { name: "shreeji", src: "./clients/shreeji.webp" },
+  { name: "lakshmi", src: "./clients/lakshmi.webp" },
+  { name: "shripur", src: "./clients/shripur.webp" },
+  { name: "sukhbir", src: "./clients/sukhbir.webp" },
+  { name: "tinplate", src: "./clients/tinplate.webp" },
+  { name: "transtech", src: "./clients/transtech.webp" },
+  { name: "universal", src: "./clients/universal.webp" },
+  { name: "mineral", src: "./clients/mineral.webp" },
 ];
 
 const Services = () => {
@@ -75,7 +75,7 @@ const Services = () => {
       {/* Hero Section */}
       <div
         className="relative text-white py-20 px-6 text-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/hero.jpg')" }}
+        style={{ backgroundImage: "url('/hero.webp')" }}
       >
         <div className="absolute inset-0  bg-black/70"></div>
 

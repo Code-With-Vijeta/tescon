@@ -3,25 +3,25 @@ import React from "react";
 const projects = [
   {
     title: "Coal Handling System",
-    image: "/coal.png",
+    image: "/coal.webp",
     description:
       "Efficient execution of Coal Handling Systems with a proven track record. We deliver reliable, optimized, and high-performance coal handling solutions.",
   },
   {
     title: "Ash Handling System",
-    image: "/ash.png",
+    image: "/ash.webp",
     description:
       "Expertly designed Ash Handling Systems for seamless, efficient operations. Trusted by industries across sectors for reliable ash management.",
   },
   {
     title: "Equipment",
-    image: "/equipment.png",
+    image: "/equipment.webp",
     description:
       "Advanced equipment designed for bulk material handling, ensuring reliability, precision, and long-term operational efficiency.",
   },
   {
     title: "Storage And Loading System",
-    image: "/storage.png",
+    image: "/storage.webp",
     description:
       "Powerful and scalable Storage & Loading Systems designed to meet industrial demands with precision and speed.",
   },

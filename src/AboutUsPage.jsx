@@ -12,16 +12,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const clientLogos = [
-  { name: "shakumbri", src: "./clients/shakumbri.png" },
-  { name: "shantha", src: "./clients/shantha.png" },
-  { name: "shreeji", src: "./clients/shreeji.png" },
-  { name: "lakshmi", src: "./clients/lakshmi.png" },
-  { name: "shripur", src: "./clients/shripur.png" },
-  { name: "sukhbir", src: "./clients/sukhbir.png" },
-  { name: "tinplate", src: "./clients/tinplate.png" },
-  { name: "transtech", src: "./clients/transtech.png" },
-  { name: "universal", src: "./clients/universal.png" },
-  { name: "mineral", src: "./clients/mineral.png" },
+  { name: "shakumbri", src: "./clients/shakumbri.webp" },
+  { name: "shantha", src: "./clients/shantha.webp" },
+  { name: "shreeji", src: "./clients/shreeji.webp" },
+  { name: "lakshmi", src: "./clients/lakshmi.webp" },
+  { name: "shripur", src: "./clients/shripur.webp" },
+  { name: "sukhbir", src: "./clients/sukhbir.webp" },
+  { name: "tinplate", src: "./clients/tinplate.webp" },
+  { name: "transtech", src: "./clients/transtech.webp" },
+  { name: "universal", src: "./clients/universal.webp" },
+  { name: "mineral", src: "./clients/mineral.webp" },
 ];
 
 const services = [
@@ -79,7 +79,7 @@ const AboutUs = () => {
       {/* Hero Section */}
       <div
         className="relative text-white py-20 px-6 text-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/hero.jpg')" }} 
+        style={{ backgroundImage: "url('/hero.webp')" }} 
       >
         <div className="absolute inset-0  bg-black/70"></div>
 
@@ -136,7 +136,7 @@ const AboutUs = () => {
 
       {/* Our Vision Section */}
       <div className="relative py-20 px-6 md:px-20 bg-gradient-to-r from-[#042b4e] to-[#06406e] text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[url('/vision.png')] bg-cover bg-center pointer-events-none"></div>
+        <div className="absolute inset-0 opacity-10 bg-[url('/vision.webp')] bg-cover bg-center pointer-events-none"></div>
 
         <div className="relative z-10 max-w-5xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-8 text-yellow-400">

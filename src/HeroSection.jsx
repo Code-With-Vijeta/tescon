@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const images = ["./bg1.png", "./bg2.png"];
+  const images = ["./bg1.webp", "./bg2.webp"];
 
   useEffect(() => {
     const interval = setInterval(() => {

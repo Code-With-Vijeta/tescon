@@ -8,37 +8,37 @@ const productGroups = [
         title: "Belt Conveyer",
         description:
           "A conveyor belt system is a continuous, durable loop—commonly manufactured from rubber, reinforced fabric, or metal alloys—designed to transport materials efficiently across varying distances and elevations.",
-        image: "/equipments/belt.avif",
+        image: "/equipments/belt.webp",
       },
       {
         title: "Screw Conveyor",
         description:
           "A screw conveyor is a versatile mechanical conveying system used for transporting bulk materials in a controlled and efficient manner.",
-        image: "/equipments/screw.png",
+        image: "/equipments/screw.webp",
       },
       {
         title: "Drag Chain Conveyor",
         description:
           "Designed to transport heavy, abrasive, or sticky materials, drag chain conveyors use flights mounted on chains to drag materials through a trough.",
-        image: "/equipments/drag.jpg",
+        image: "/equipments/drag.webp",
       },
       {
         title: "Vibrating Screen",
         description:
           "Vibrating screens separate bulk materials by size using vibration to pass smaller particles through screens while larger particles continue on.",
-        image: "/equipments/screen.jpg",
+        image: "/equipments/screen.webp",
       },
       {
         title: "Bucket Elevator",
         description:
           "A bucket elevator vertically lifts bulk materials using buckets attached to a continuous belt or chain.",
-        image: "/equipments/bucket.jpg",
+        image: "/equipments/bucket.webp",
       },
       {
         title: "Portable Loader",
         description:
           "Portable loaders are mobile conveyors mounted on wheeled or skid bases for flexible material loading and transfer on site.",
-        image: "/equipments/loader.png",
+        image: "/equipments/loader.webp",
       },
     ],
   },
@@ -53,25 +53,25 @@ const productGroups = [
             title: "Impact Idler",
             description:
               "Positioned at loading zones to absorb shock and impact forces from falling bulk material.",
-            image: "/components/impact.png",
+            image: "/components/impact.webp",
           },
           {
             title: "Carrying Idler",
             description:
               "Form a trough shape for stable, controlled material transport. Typical trough angles: 20°, 35°, or 45°. Diameter",
-            image: "/components/carrying.png",
+            image: "/components/carrying.webp",
           },
           {
             title: "Return Idler",
             description:
               "Support the empty belt and prevent sagging. Commonly flat or slightly trough-shaped.",
-            image: "/components/return.png",
+            image: "/components/return.webp",
           },
           {
             title: "Guide Idler",
             description:
               "Located along return run edges to maintain belt alignment and prevent tracking issues.",
-            image: "/components/guide.png",
+            image: "/components/guide.webp",
           },
         ],
       },
@@ -82,25 +82,25 @@ const productGroups = [
             title: "V-Type Pulley",
             description:
               "Designed for V-belt drives, improves power transfer efficiency with grooved surfaces.",
-            image: "/components/v.png",
+            image: "/components/v.webp",
           },
           {
             title: "Drive Pulley",
             description:
               "Transmits power from the motor to move the belt; often equipped with lagging to increase grip.",
-            image: "/components/drive.png",
+            image: "/components/drive.webp",
           },
           {
             title: "Tail Pulley",
             description:
               "Located at the conveyor end, guides the belt back. Usually unlagged but can be lagged in some designs.",
-            image: "/components/tail.png",
+            image: "/components/tail.webp",
           },
           {
             title: "Lagged Pulley",
             description:
               "Features a friction-enhancing lagging surface (rubber or ceramic) to prevent belt slip, especially in high torque applications.",
-            image: "/components/lagged.png",
+            image: "/components/lagged.webp",
           },
         ],
       },
@@ -111,31 +111,31 @@ const productGroups = [
             title: "Screw Feeder",
             description:
               "Rotating screw inside a trough or pipe moves powders and granular materials for precise feeding.",
-            image: "/feeder/screw.png",
+            image: "/feeder/screw.webp",
           },
           {
             title: "Vibro Feeder",
             description:
               "Utilizes controlled vibrations to move materials gently, ideal for fragile or free-flowing materials.",
-            image: "/feeder/vibro.png",
+            image: "/feeder/vibro.webp",
           },
           {
             title: "Apron Feeder",
             description:
               "Heavy-duty feeders with overlapping steel plates for coarse or large lump material. Suitable for feeding crushers or conveyors under harsh conditions.",
-            image: "/feeder/apron.png",
+            image: "/feeder/apron.webp",
           },
           {
             title: "Drag Chain Feeder",
             description:
               "Chain flights drag materials in a trough for reliable feeding of heavy, abrasive, or sticky bulk materials. Fully enclosed for dust control.",
-            image: "/feeder/drag.jpg",
+            image: "/feeder/drag.webp",
           },
           {
             title: "Belt Feeder",
             description:
               "Uses a continuous belt to deliver a steady, controllable feed of bulk materials. Ideal for powders, granules, and lumps.",
-            image: "/feeder/belt.png",
+            image: "/feeder/belt.webp",
           },
         ],
       },
@@ -149,7 +149,7 @@ const Products = () => {
       {/* Hero Section */}
       <div
         className="relative text-white py-20 px-6 text-center bg-cover bg-center"
-        style={{ backgroundImage: "url('./hero.jpg')" }}
+        style={{ backgroundImage: "url('./hero.webp')" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10">

@@ -15,7 +15,7 @@ const Contact = () => {
       {/* Hero Section */}
       <div
         className="relative text-white py-20 px-6 text-center bg-cover bg-center"
-        style={{ backgroundImage: "url('./hero.jpg')" }}
+        style={{ backgroundImage: "url('./hero.webp')" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10">

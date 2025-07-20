@@ -6,7 +6,7 @@ const TalkToUs = () => {
       className="bg-cover bg-center bg-no-repeat text-center py-20 px-6 md:px-20 relative"
       style={{
         backgroundImage:
-          "url('/talkToUs.jpg')",
+          "url('/talkToUs.webp')",
       }}
     >
       <div className="bg-black/60  p-10 rounded-xl max-w-3xl mx-auto">

@@ -7,7 +7,7 @@ const AboutUsSection = () => {
       {/* Left Image */}
       <div className="relative w-full lg:w-1/2 h-[500px]">
         <img
-          src="/about.png"
+          src="/about.webp"
           alt="About Tescon"
           className="w-full h-full object-cover"
         />
